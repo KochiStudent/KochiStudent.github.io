@@ -1,0 +1,41 @@
+body {
+  background-color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  background-color: #fff;
+  margin: 100px auto;
+  padding: 1em;
+  text-align: center;
+  border-radius: 1em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  opacity: 0.5;
+  margin: 25px 0;
+  font-size: 1.1rem;
+}
+
+.btn {
+  margin: 30px auto;
+  width: 150px;
+  padding: 0.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.content {
+  font-size: 1.5rem;
+  color: rgb(2, 0, 0);
+  font-weight: 500;
+}
